@@ -52,9 +52,6 @@ describe("Trello Board Page", () => {
 
     console.log("Is 'Create' button displayed?", isDisplayed);
 
-     // Add a pause here for debugging
-    await browser.pause(300000); // Pause for 5 minutes (300,000ms)
-
     // Assert that the "Create" button is visible
     expect(isDisplayed).toBe(true);
   });
